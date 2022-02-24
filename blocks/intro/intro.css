@@ -1,0 +1,7 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-left: 48px;
+  margin-top: 92px;
+  /* flex-wrap: nowrap; */
+}
