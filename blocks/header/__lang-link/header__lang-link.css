@@ -1,4 +1,12 @@
 .header__lang-link {
   color: #FFFFFF;
-  margin-top: 46px;
+  /* margin-top: 46px; */
+  /* max-height: 28px;
+  max-width: 29px; */
+  /* margin-left: 0;
+  margin-right: 0; */
+  /* justify-self: end; */
+  /* align-self: center; */
+  font-size: 24px;
+  margin: 0;
 }

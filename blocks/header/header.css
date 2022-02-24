@@ -1,7 +1,12 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  display: grid;
+  /* flex-direction: column; */
+  /* flex-wrap: nowrap; */
+  /* justify-content: space-between; */
+  align-items: center;
   margin: 0 48px;
   min-height: 108px;
+  grid-template-columns: auto repeat(2, 35px);
+  gap: 18px;
+  justify-items: start;
 }
