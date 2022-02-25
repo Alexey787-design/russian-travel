@@ -1,0 +1,15 @@
+.places__place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "title website" "image paragraph_top" "image paragraph_bottom";
+  /* margin: 0 auto; */
+  margin-top: 12px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-top: 80px;
+  align-items: start;
+  gap: 32px;
+  /* justify-items: center; */
+}

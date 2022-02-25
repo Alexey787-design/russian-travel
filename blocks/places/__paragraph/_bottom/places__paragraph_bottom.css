@@ -1,0 +1,6 @@
+.places__paragraph_bottom {
+  grid-area: paragraph_bottom;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+}
