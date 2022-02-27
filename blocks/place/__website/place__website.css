@@ -1,0 +1,7 @@
+.place__website {
+  grid-area: website;
+  /* color: #FFFFFF; */
+
+  align-self: end;
+
+}

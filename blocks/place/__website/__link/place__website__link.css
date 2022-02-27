@@ -1,8 +1,8 @@
-.places__website {
-  grid-area: website;
-  color: #FFFFFF;
+.place__website__link {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
 }

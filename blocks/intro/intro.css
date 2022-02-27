@@ -3,5 +3,6 @@
   flex-direction: column;
   margin-left: 48px;
   margin-top: 92px;
+  max-width: 690px;
   /* flex-wrap: nowrap; */
 }
