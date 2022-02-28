@@ -1,0 +1,27 @@
+по дефолту 1280 и выше 4 колонки
+
+
+менее 1279 и до 1024
+@media screen and (max-width: 1279px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+  }
+}
+
+
+менее 1023 и до 768
+@media screen and (max-width: 1023px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+  }
+}
+
+менее 767
+@media screen and (max-width: 767px) {
+  .photo-grid {
+    gap: 12px;
+    grid-template-columns: 1fr;
+  }
+}

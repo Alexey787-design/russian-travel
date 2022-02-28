@@ -11,20 +11,19 @@
   grid-template-columns: auto repeat(2, minmax(min-content, max-content));
   gap: 18px;
   justify-items: start;
-
   /* margin: auto; */
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
   .header {
-    padding-top: 16px;
-    margin: 0 16px;
-
+    padding-top: 28px;
+    margin: 0 24px;
   }
 }
 
-@media (min-width: 321px) and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {
-    margin: 0 24px;
+    padding-top: 16px;
+    margin: 0 16px;
   }
 }
