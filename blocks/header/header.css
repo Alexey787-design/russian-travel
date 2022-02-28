@@ -5,8 +5,10 @@
   /* justify-content: space-between; */
   /* margin: auto; */
   align-items: center;
-  margin: 0 48px;
+  margin: 0;
   padding-top: 28px;
+  padding-left: 48px;
+  padding-right: 48px;
   min-height: 42px;
   grid-template-columns: auto repeat(2, minmax(min-content, max-content));
   gap: 18px;
@@ -17,13 +19,15 @@
 @media screen and (max-width: 1023px) {
   .header {
     padding-top: 28px;
-    margin: 0 24px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
     padding-top: 16px;
-    margin: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
