@@ -8,11 +8,12 @@
   align-self: end;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__title {
     grid-template-columns: minmax(288px, 440px);
     font-size: 32px;
     line-height: 35px;
-
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

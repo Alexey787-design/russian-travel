@@ -9,5 +9,11 @@
   /* padding-left: 148px;
   padding-right: 148px; */
   /* max-width: 100%; */
-  margin-top: 56px;
+  padding-top: 56px;
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    padding-top: 48px;
+  }
 }
