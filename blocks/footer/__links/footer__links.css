@@ -1,3 +1,12 @@
 .footer__links {
+<<<<<<< HEAD
   list-style-type: none;
+=======
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  /* flex-direction: row; */
+  list-style-type: none;
+  gap: 18px;
+>>>>>>> 9ed633f97bd0cdd8c5c43af9987d1b4044fe8b81
 }
