@@ -5,6 +5,7 @@
   align-self: start;
   margin: 0;
   margin-top: 8px;
+  letter-spacing: 1.5px;
 }
 
 @media (min-width: 321px) and (max-width: 768px) {

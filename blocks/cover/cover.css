@@ -28,3 +28,11 @@
 .cover:hover::after {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 767px) {
+  .cover {
+    min-width: 320px;
+    min-height: 200px;
+    margin-top: 66px;
+  }
+}

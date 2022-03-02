@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-areas: "title website" "image paragraph";
-  grid-template-columns: minmax(288px, 440px) 1fr;
+  grid-template-columns: minmax(288px, 460px) 1fr;
   /*  grid-template-rows: auto auto auto; */
   /*  grid-template-rows: repeat(3, 1fr); */
   /* grid-template-rows: website 20px paragraph_top 10px paragraph_bottom; */

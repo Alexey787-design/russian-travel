@@ -1,43 +1,18 @@
 .intro {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   padding-left: 48px;
-=======
-  padding-left: 148px;
->>>>>>> e7e0e10a35574e2e747807dc6fb33b9f88d9fbd7
   padding-top: 92px;
   max-width: 690px;
+  box-sizing: border-box;
   /* flex-wrap: nowrap; */
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 767px) {
   .intro {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 64px;
-=======
-@media screen and (max-width: 1080px) {
-  .intro {
-    padding-left: 48px;
-    padding-right: 286px;
-  }
-}
-
-@media screen and (max-width: 928px) {
-  .intro {
-    padding-left: 24;
-    padding-right: 24;
-    padding-top: 88px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .intro {
-    padding-left: 16;
-    padding-right: 16;
->>>>>>> e7e0e10a35574e2e747807dc6fb33b9f88d9fbd7
   }
 }

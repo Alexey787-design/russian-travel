@@ -12,8 +12,6 @@
   padding-top: 56px;
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 1080px) {
   .lead {
     padding-left: 48px;
@@ -29,7 +27,6 @@
   }
 }
 
->>>>>>> e7e0e10a35574e2e747807dc6fb33b9f88d9fbd7
 @media screen and (max-width: 767px) {
   .lead {
     padding-top: 48px;
