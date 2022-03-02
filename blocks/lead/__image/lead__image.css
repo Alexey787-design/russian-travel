@@ -8,7 +8,11 @@
   margin-top: 64px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) and (max-width: 1024px) {
+=======
+@media screen and (max-width: 1080px) {
+>>>>>>> e7e0e10a35574e2e747807dc6fb33b9f88d9fbd7
   .lead__image {
     margin-top: 56px;
   }
