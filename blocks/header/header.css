@@ -1,21 +1,14 @@
 .header {
   max-width: 1280px;
-  display: grid;
-  /* flex-direction: column; */
-  /* flex-wrap: nowrap; */
-  /* justify-content: space-between; */
-  /* margin: auto; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   box-sizing: border-box;
   padding-top: 28px;
   padding-left: 48px;
   padding-right: 48px;
-  min-height: 42px;
-  grid-template-columns: auto repeat(2, minmax(min-content, max-content));
-  gap: 18px;
-  justify-items: start;
-  /* margin: auto; */
 }
 
 @media screen and (max-width: 1023px) {
@@ -23,7 +16,6 @@
     padding-top: 28px;
     padding-left: 24px;
     padding-right: 24px;
-    max-height: 52px;
   }
 }
 

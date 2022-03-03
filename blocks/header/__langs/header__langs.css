@@ -1,0 +1,10 @@
+.header__langs {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  gap: 18px;
+}

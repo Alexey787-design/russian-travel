@@ -7,8 +7,6 @@
   padding-top: 92px;
   align-items: flex-start;
   max-width: 1280px;
-  /* max-width: 690px; */
-  /* flex-wrap: nowrap; */
 }
 
 @media screen and (max-width: 1279px) {
