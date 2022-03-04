@@ -1,7 +1,7 @@
 .place__paragraph {
   grid-area: paragraph;
   font-size: 18px;
-  line-height: 163%;
+  line-height: 1.63;
   margin: 0;
 }
 
@@ -11,12 +11,12 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
     grid-template-columns: minmax(288px, 440px);
-    font-size: 16px;
-    line-height: 163%;
     max-width: 288px;
     margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
