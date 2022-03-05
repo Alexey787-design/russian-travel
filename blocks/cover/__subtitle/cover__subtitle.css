@@ -7,6 +7,8 @@
   max-width: 360px;
   z-index: 3;
   box-sizing: border-box;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 767px) {
